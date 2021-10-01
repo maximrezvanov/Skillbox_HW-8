@@ -6,10 +6,10 @@ namespace HW8
     public struct Department
     {
         public string departmentName;
-        public DateTime dateOfCreation;
+        public string dateOfCreation;
         public List<Worker> workers;
         
-        public Department(string departmentName, DateTime dateOfCreation)
+        public Department(string departmentName, string dateOfCreation)
         {
             this.departmentName = departmentName;
             this.dateOfCreation = dateOfCreation;
@@ -18,7 +18,7 @@ namespace HW8
         
         public string PrintDepartment()
         {
-            return $"{this.departmentName,-10}/t {this.dateOfCreation,-10}/t";
+            return $"{this.departmentName, -10} {this.dateOfCreation, -10}";
         }
     }
 }
