@@ -135,12 +135,12 @@ namespace HW8.Properties
                             num = int.Parse(Console.ReadLine());
                         }
                         departmentNum = num;
+                        dataHandler.AddWorker(id, firstName, secondName, age, departmentNum, salary);
                     }
                     else
                     {
                         Console.WriteLine("First you have to add a department");
                     }
-                    dataHandler.AddWorker(id, firstName, secondName, age, departmentNum, salary);
                     Console.Clear();
                     dataHandler.PrintDepartment();
                     Console.WriteLine();

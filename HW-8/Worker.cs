@@ -6,10 +6,10 @@ namespace HW8
         public string secondName;
         public string firstName;
         public int age;
-        public Department department;
+        public int department;
         public int salary;
 
-        public Worker(int id, string firstName, string secondName, int age, Department department, int salary)
+        public Worker(int id, string firstName, string secondName, int age, int department, int salary)
         {
             this.firstName = firstName;
             this.secondName = secondName;
@@ -21,8 +21,8 @@ namespace HW8
 
         public string PrintWorkers()
         {
-            return $"{this.firstName,-10}/t {this.secondName,-10}/t {this.age,-10}/t " +
-                   $"{this.id,-10}/t {this.department,-10}/t {this.salary,-10}";
+            return $"{this.firstName,-10} {this.secondName,-10} {this.age,-10} " +
+                   $"{this.id,-10} {this.department,-10} {this.salary,-10}";
         }
     }
 }

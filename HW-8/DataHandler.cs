@@ -13,7 +13,7 @@ namespace HW8
 
         public void AddWorker(int id, string firstName, string secondName, int age, int departmentNum, int salary)
         {
-            workersList.Add(new Worker(id, firstName, secondName, age, departmentsList[departmentNum - 1], salary));
+           departmentsList[departmentNum - 1].workers.Add(new Worker(id, firstName, secondName, age, departmentNum, salary));
         }
 
         public void RemoveWorker(int idWorkers)
@@ -30,7 +30,7 @@ namespace HW8
             }
         }
 
-        public void EditWorkers(int id, string firstName, string secondName, int age, Department department, int salary)
+        public void EditWorkers(int id, string firstName, string secondName, int age, int department, int salary)
         {
             Worker worker = new Worker();
             worker.age = age;
@@ -165,19 +165,13 @@ namespace HW8
             Console.WriteLine($"{workersTitles[0], -10} {workersTitles[1], 10} {workersTitles[2], 10} {workersTitles[3], 10}" +
                               $"{workersTitles[4], 10} {workersTitles[5], 10}");
 
-            Console.WriteLine("departmentsList.Count " + departmentsList.Count);
             for (int i = 0; i < departmentsList.Count; i++)
             {
                 for (int j = 0; j < departmentsList[i].workers.Count; j++)
                 {
-                    Console.WriteLine($"{departmentsList[i].workers[j].id, 10} {departmentsList[i].workers[j].firstName, 10}" +
-                                      $"{departmentsList[i].workers[j].secondName, 10} {departmentsList[i].workers[j].salary, 10}" +
-                                      $"{departmentsList[i].workers[j].age, 10} {departmentsList[i].workers[j].department}");
-
-                    Console.WriteLine($"{departmentsList[i].workers[j].PrintWorkers()}");
-                    Console.WriteLine($"workersList - {departmentsList[i].workers[j].PrintWorkers()}");
-
-                    
+                    Console.WriteLine($"{departmentsList[i].workers[j].id, -10} {departmentsList[i].workers[j].firstName, 10}" +
+                                      $"{departmentsList[i].workers[j].secondName, 10} {departmentsList[i].workers[j].age, 10}" +
+                                      $"{departmentsList[i].workers[j].salary, 10} {departmentsList[i].workers[j].department}");
                 }
             }
         }
@@ -203,8 +197,6 @@ namespace HW8
                 ++num;
                 Console.WriteLine($"{num} " + dep.PrintDepartment() + $"{dep.workers.Count, 10}");
             }
-
-            // Console.WriteLine($"Departments number: {departmentsList.Count}");
         }
         
     }
