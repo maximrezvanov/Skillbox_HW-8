@@ -18,7 +18,7 @@ namespace HW8
         
         public string PrintDepartment()
         {
-            return $"{this.departmentName, -10} {this.dateOfCreation, -10}";
+            return $"{this.departmentName, 10} {this.dateOfCreation, 10}";
         }
     }
 }

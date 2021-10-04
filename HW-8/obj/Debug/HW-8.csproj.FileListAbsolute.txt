@@ -4,3 +4,7 @@
 /Users/gagarin/SkillBox/C#/HW/8/HW-8/HW-8/obj/Debug/HW-8.csproj.CoreCompileInputs.cache
 /Users/gagarin/SkillBox/C#/HW/8/HW-8/HW-8/obj/Debug/HW-8.exe
 /Users/gagarin/SkillBox/C#/HW/8/HW-8/HW-8/obj/Debug/HW-8.pdb
+/Users/gagarin/SkillBox/C#/HW/8/HW-8/HW-8/bin/Debug/Newtonsoft.Json.dll
+/Users/gagarin/SkillBox/C#/HW/8/HW-8/HW-8/bin/Debug/Newtonsoft.Json.xml
+/Users/gagarin/SkillBox/C#/HW/8/HW-8/HW-8/obj/Debug/HW-8.csproj.CopyComplete
+/Users/gagarin/SkillBox/C#/HW/8/HW-8/HW-8/bin/Debug/System.Xml.ReaderWriter.dll

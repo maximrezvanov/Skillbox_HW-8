@@ -1,15 +1,21 @@
 ﻿<Properties StartupConfiguration="{EFE00CCD-4957-4D30-B1A2-5EC88D47F8C3}|Default">
-  <MonoDevelop.Ide.ItemProperties.HW-8 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="HW-8/Program.cs">
+  <MonoDevelop.Ide.ItemProperties.HW-8 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HW-8/DataHandler.cs">
     <Files>
       <File FileName="HW-8/Program.cs" Line="1" Column="1" />
+      <File FileName="HW-8/DataHandler.cs" Line="6" Column="17" />
+      <File FileName="HW-8/Department.cs" />
+      <File FileName="HW-8/Worker.cs" />
+      <File FileName="HW-8/Properties/Menu.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HW-8" expanded="True">
             <Node name="HW-8" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="References" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="DataHandler.cs" selected="True" />
             </Node>
           </Node>
         </State>

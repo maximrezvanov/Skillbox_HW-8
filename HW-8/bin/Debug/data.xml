@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDepartment xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Department>
+    <departmentName>depart1</departmentName>
+    <dateOfCreation>03/03/3333</dateOfCreation>
+    <workers>
+      <Worker>
+        <id>101</id>
+        <secondName>navi</secondName>
+        <firstName>ivan</firstName>
+        <age>33</age>
+        <department>1</department>
+        <salary>1000</salary>
+      </Worker>
+      <Worker>
+        <id>131</id>
+        <secondName>Gvozd</secondName>
+        <firstName>Oleg</firstName>
+        <age>56</age>
+        <department>1</department>
+        <salary>1000</salary>
+      </Worker>
+    </workers>
+  </Department>
+</ArrayOfDepartment>
